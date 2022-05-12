@@ -12,8 +12,6 @@ router.get('/refresh_token', userController.refreshToken)
 
 router.get('/infor', auth, userController.getUser)
 
-router.patch('/addcart', auth, userController.addToCart)
 
-router.get('/history', auth, userController.history)
 
 module.exports = router
